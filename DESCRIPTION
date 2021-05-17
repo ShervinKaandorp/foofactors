@@ -5,8 +5,14 @@ Authors@R:
     person(given = "Shervin",
            family = "Kaandorp",
            role = c("aut", "cre"),
-           email = "shervinkaandorp@gmail.com",
+           email = "shervinkaandorp@gmail.com")
 Description: This package has a function called fbind which binds two factors together. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    forcats
